@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        html *{
+            box-sizing: border-box;
+        }
+
+        body{
+            padding: 10px;
+        }
+
+        .container{
+            background-color: aqua;
+            padding: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .item{
+            background-color: blueviolet;
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            
+        }
+
+        @media screen and (min-width:1000px){
+            .container{
+                background-color: gold;
+                border: 2px dotted red;
+            }    
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+<script>
+    let animal = "dog";
+</script>
+</body>
+</html>
